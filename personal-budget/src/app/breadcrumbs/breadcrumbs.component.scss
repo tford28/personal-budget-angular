@@ -1,0 +1,15 @@
+.example2 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  color: red;
+}
+
+.example2 h3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
+}
