@@ -1,4 +1,4 @@
-import { async,  ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MenuComponent } from './menu.component';
 
@@ -7,7 +7,7 @@ describe('MenuComponent', () => {
   let fixture: ComponentFixture<MenuComponent>;
 
   beforeEach(async () => {
-    TestBed.configureTestingModule({
+    await TestBed.configureTestingModule({
       declarations: [ MenuComponent ]
     })
     .compileComponents();

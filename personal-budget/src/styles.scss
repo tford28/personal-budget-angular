@@ -366,36 +366,6 @@ body {
   font-family: Tahoma, Arial;
 }
 
-nav.menu {
-  width: 100%;
-  background-color: #4d5791;
-  height: 44px;
-  padding: 0 40px;
-}
-
-nav.menu ul,
-nav.menu ul li {
-  margin: 0;
-  padding: 0 ;
-  list-style: none;
-  display: inline-block;
-}
-
-nav.menu ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 44px;
-  font-size: 1.7em;
-  text-decoration: none;
-  color: #fff;
-  margin: 0;
-}
-
-nav.menu ul li a:hover  {
-  background-color: white;
-  color: #4d5791;
-}
-
 header.hero {
   height: 350px;
   background-color: #b4c6f0;
@@ -422,7 +392,7 @@ header.hero h2 {
   color: #4d5791;
 }
 
-.container {
+main.container {
   padding: 40px;
   width: 100%;
 }
@@ -442,7 +412,7 @@ header.hero h2 {
   text-align: center;
 }
 
-.container div.text-box {
+main.container pb-article.text-box {
   display: inline-block;
   width: 100%;
   max-width: 340px;
@@ -467,7 +437,7 @@ footer {
   font-size: 1.4em;
 }
 
-.skip {
+a.skip{
   display: none;
 }
 }
